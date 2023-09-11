@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess the number</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <section class="main-contenair">
+            <div class="sub-contenair">
+                <h1>GUESS THE NUMBER</h1>
+                <div class="border"></div>
+                <h2>Trouve le nombre entre 0 et 100</h2>
+                <div class="life-icons">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="cta-contenair">
+                <form class="cta-form" method="get" action="#">
+                    <input type="search" id="button" name="search" placeholder="Entrez votre nombre ici...">
+                    <button class="cta-btn" type="submit"> VALIDER </button>
+                </form>
+            </div>
+                <div class="reponse"></div>
+                <div class="final-reponse"></div>
+                <div id="compteARebours"></div>
+            <div class="thermomètre">
+                <div class="brulant"></div>
+                <div class="chaud"></div>
+                <div class="tiede"></div>
+                <div class="froid"></div>
+            </div>
+            <div class="description">
+                <div>
+                    <h3>Brûlant </h3>
+                    <p>+2</p>
+                </div>
+                <div>
+                    <h3>Chaud </h3>
+                    <p>+5</p>
+                </div>
+                <div>
+                    <h3>Tiède </h3>
+                    <p>+10</p>
+                </div>
+                <div>
+                    <h3>Froid </h3>
+                    <p>+ de 10</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
